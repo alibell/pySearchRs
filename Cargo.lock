@@ -142,15 +142,15 @@ checksum = "270e04e5ea61d40841942bb15e451c29ee1618637bcf97fc7ede5dd4a9b1601b"
 
 [[package]]
 name = "search"
-version = "0.1.0"
-source = "git+https://github.com/alibell/search.rs#8d3fb1fbf0f07011899f3060ad23ceda8e3a7b2a"
+version = "0.1.1"
+source = "git+https://github.com/alibell/search.rs?tag=0.1.1#242a3f4670d078a0247db7fea6c8fba3c4d7d15c"
 dependencies = [
  "rapidfuzz",
 ]
 
 [[package]]
 name = "searchrs"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "pyo3",
  "search",
