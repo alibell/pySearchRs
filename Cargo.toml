@@ -10,4 +10,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 pyo3 = "0.22.0"
-search = { git = "https://github.com/alibell/search.rs", version = "0.1.1", tag = "0.1.1" }
+search = { git = "https://github.com/alibell/search.rs", version = "0.1.2", tag = "0.1.2" }
