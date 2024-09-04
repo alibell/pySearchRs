@@ -46,9 +46,10 @@ fn fuzzy_token_extract(
     special_char_insensitive: bool,
     metric: String,
     threshold: f64,
-    threshold_kind: u8
+    threshold_kind: u8,
+    strategies: Vec<String>
 ) -> PyResult<Vec<(usize, usize, f64)>> {
-    Ok(search::fuzzy_token_extract::extract(s, pattern, tokenizer_pattern, case_insensitive, special_char_insensitive, metric, threshold, threshold_kind))
+    Ok(search::fuzzy_token_extract::extract(s, pattern, tokenizer_pattern, case_insensitive, special_char_insensitive, metric, threshold, threshold_kind, strategies))
 }
 
 /// A Python module implemented in Rust.
